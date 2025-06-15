@@ -32,4 +32,5 @@ A basic *Event Management System* built with *Java Servlets, **JSP, and **MySQL.
 ## 🔐 Admin Login Page
 
 Here is the admin login page of the Event Management System:
-![image](https://github.com/user-attachments/assets/3e84c743-541f-4fc5-8df9-2aed5a2eb0d0)
+![image](https://github.com/user-attachments/assets/345c6eea-de86-4f0c-8712-7f48c26a7c47)
+
