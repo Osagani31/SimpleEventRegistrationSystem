@@ -8,7 +8,7 @@ A basic *Event Management System* built with *Java Servlets, **JSP, and **MySQL.
 
 ## 🚀 Features
 
-- 🔐 Admin-only access
+- 🔐 Admin-only access(username-admin/password-admin123)
 - 📝 Add/Register events (title, date, description, etc.)
 - 📋 View all listed events
 - 💾 MySQL database integration (via phpMyAdmin)
