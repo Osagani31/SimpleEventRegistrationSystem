@@ -11,6 +11,10 @@ A basic *Event Management System* built with *Java Servlets, **JSP, and **MySQL.
 - 🔐 Admin-only access(username-admin/password-admin123)
 - 📝 Add/Register events (title, date, description, etc.)
 - 📋 View all listed events
+- 📝 Assign Event Manager and allocated Hall to Co-ordinate event
+- 📋 View all Assign Event Manager and Hall 
+- 📝 Add Event Status with Customer Comments to Analyze data about the business and for Marketing purposes
+- 📋 View all Event Status
 - 💾 MySQL database integration (via phpMyAdmin)
 - 🖥 Hosted on Apache Tomcat server
 
