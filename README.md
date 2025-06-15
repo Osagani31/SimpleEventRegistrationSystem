@@ -22,11 +22,11 @@ A basic *Event Management System* built with *Java Servlets, **JSP, and **MySQL.
 
 ## 🛠 Tech Stack
 
-- *Frontend*: JSP, HTML, CSS, Bootstrap (optional styling)
+- *Frontend*: JSP, HTML, CSS, Bootstrap 
 - *Backend*: Java Servlets
 - *Database*: MySQL (managed using phpMyAdmin)
 - *Server*: Apache Tomcat (recommended: v9+)
-- *Build Tool*: Manual setup or IDE (Eclipse/IntelliJ)
+- *Build Tool*: Manual setup or IDE (Apache)
 
 ---
 
