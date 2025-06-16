@@ -1,4 +1,41 @@
-CREATE DATABASE eventdb; 
- 
-CREATE TABLE participants (     id INT AUTO_INCREMENT PRIMARY KEY,     name VARCHAR(100),     email VARCHAR(100),     event VARCHAR(100) 
-); 
+-- Create the database
+CREATE DATABASE  eventdb;
+USE eventdb;
+
+-- Create event_status table
+CREATE TABLE  event_status (
+    status_id INT(11) NOT NULL AUTO_INCREMENT,
+    event_name VARCHAR(100) NOT NULL,
+    client_name VARCHAR(100),
+    status ENUM('Success', 'Cancelier') NOT NULL,
+    customer_comments TEXT,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (status_id)
+);
+
+-- Create participant table
+CREATE TABLE participant (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100),
+    phone VARCHAR(200),
+    PRIMARY KEY (id)
+);
+
+-- Create event_managers table
+CREATE TABLE  event_managers (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100),
+    phone VARCHAR(200),
+    PRIMARY KEY (id)
+);
+
+-- Create hall table (venue/room table)
+CREATE TABLE  hall (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    capacity INT(11),
+    location VARCHAR(200),
+    PRIMARY KEY (id)
+);
