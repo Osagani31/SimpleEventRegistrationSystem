@@ -47,9 +47,13 @@ Displays a list of all registered events.
 ### 🧑‍💼 Assign Manager & Hall
 Admin assigns an event manager and hall to a specific event.
 
+![image](https://github.com/user-attachments/assets/930502a8-cd0e-4e43-a957-027a1f75c4f4)
+
 
 ### 📊 Event Status Page
 Admin updates status with customer feedback.
+
+![image](https://github.com/user-attachments/assets/197f6a49-e383-446d-9ac2-8169efe10d2e)
 
 
 ---
