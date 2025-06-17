@@ -65,7 +65,8 @@ Admin updates status with customer feedback.
 
 ## 📁 Folder Structure
 
-![image](https://github.com/user-attachments/assets/b39b1242-e0fe-467a-b9ec-3e8b45d64bb7)
+![image](https://github.com/user-attachments/assets/653d5d7e-86ee-4e1e-b636-ce37d0fef5c5)
+
 
 ---
 
