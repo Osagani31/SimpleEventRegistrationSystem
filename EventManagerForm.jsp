@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
-            background: url('images/event-management.jpeg') no-repeat center center fixed;
+            background: url('images/images.jpeg') no-repeat center center fixed;
             background-size: cover;
             position: relative;
         }
@@ -108,6 +108,7 @@
                 <a href="EventManagement.jsp" class="nav-link">Event Management</a>
                 <a href="StatusForm.jsp" class="nav-link">Event Status Form</a>
                 <a href="EventStatus.jsp" class="nav-link">Event Status List</a>
+                <a href="logout" class="nav-link">Logout</a>
             </div>
         </div>
     </nav>
