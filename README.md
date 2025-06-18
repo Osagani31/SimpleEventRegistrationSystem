@@ -38,22 +38,35 @@ Here is the admin login page of the Event Management System:
 ### 📝 Register Event Form
 Allows the admin to enter event title, date, description, etc.
 
-![image](https://github.com/user-attachments/assets/ee153f46-36eb-45b0-8135-f750c772d4fd)
+![image](https://github.com/user-attachments/assets/8bdf3be4-4998-4812-9808-a6cf193ab296)
 
-### 📋 View All Events
-Displays a list of all registered events.
 
+### 📋 View All Events or Reservations
+Displays a list of all registered events(Reservations)
+
+![image](https://github.com/user-attachments/assets/fbfb56a6-a383-4eaa-9c3a-21a766c267d8)
+
+
+### 📋 View All Clients
+Displays a list of all Clients who registered.
+
+![image](https://github.com/user-attachments/assets/b80cf04e-3027-48b3-8e8f-8ca86716cf07)
 
 ### 🧑‍💼 Assign Manager & Hall
 Admin assigns an event manager and hall to a specific event.
 
-![image](https://github.com/user-attachments/assets/930502a8-cd0e-4e43-a957-027a1f75c4f4)
+![image](https://github.com/user-attachments/assets/a779a78a-a020-4bb3-9b54-e9163eaff921)
 
 
 ### 📊 Event Status Page
 Admin updates status with customer feedback.
 
-![image](https://github.com/user-attachments/assets/197f6a49-e383-446d-9ac2-8169efe10d2e)
+![image](https://github.com/user-attachments/assets/44ddd48d-717f-47c2-ad16-84aefc86522b)
+
+### 📋 View All Status/Customer Feedbacks
+Displays Status of the events and Customer feedbacks
+
+![image](https://github.com/user-attachments/assets/64bca1b7-b738-4829-9f05-2669d488826a)
 
 
 ---
