@@ -33,9 +33,13 @@ A basic *Event Management System* built with *Java Servlets, **JSP, and **MySQL.
 
 Here is the admin login page of the Event Management System:
 
+![image](https://github.com/user-attachments/assets/3b35a119-c9be-4b1a-bc55-45190e1bda7f)
+
 
 ### 📝 Register Event Form
 Allows the admin to enter event title, date, description, etc.
+
+![image](https://github.com/user-attachments/assets/246db11a-4ce5-4ab5-9b77-82ff0b3cc530)
 
 
 
@@ -53,6 +57,10 @@ Displays a list of all Clients who registered.
 
 ### 🧑‍💼 Assign Manager & Hall
 Admin assigns an event manager and hall to a specific event.
+
+![image](https://github.com/user-attachments/assets/2dcfd522-5228-4138-92f3-66a6dfc08126)
+![image](https://github.com/user-attachments/assets/677e91ba-8952-4315-bfc4-84824e6f9f38)
+
 
 
 
@@ -74,7 +82,7 @@ Displays Status of the events and Customer feedbacks
 
 ## 📁 Folder Structure
 
-
+![image](https://github.com/user-attachments/assets/2b236c9c-7104-4ae0-96bd-2fcb353f2cd8)
 
 
 ---
