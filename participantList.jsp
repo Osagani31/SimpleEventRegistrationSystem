@@ -5,101 +5,106 @@
 <head>
     <title>Registered Participants</title>
     <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            background: url('images/images.jpeg') no-repeat center center fixed;
-            background-size: cover;
-            position: relative;
-        }
-        .navbar {
-            background-color: #e67e22;
-            padding: 15px 0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 20px;
-        }
-        .nav-brand {
-            color: white;
-            font-size: 24px;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        .nav-links {
-            display: flex;
-            gap: 20px;
-        }
-        .nav-link {
-            color: #ecf0f1;
-            text-decoration: none;
-            padding: 8px 15px; 
-            border-radius: 4px;
-            transition: background-color 0.3s;
-        }
-        .nav-link:hover {
-            background-color: #d35400;
-        }
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-        }
-        h1 { 
-            text-align: center; 
-            color: #333;
-            margin-bottom: 30px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: white;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-        }
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        th {
-            background-color: #e67e22;
-            color: white;
-        }
-        tr:hover {
-            background-color: #ffeacc;
-        }
-        .no-data {
-            text-align: center;
-            padding: 20px;
-            background-color: white;
-            border-radius: 4px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-            color: #666;
-        }
-        .submit-btn {
-            background-color: #e67e22;
-            color: white; 
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%;
-            font-size: 16px;
-        }
-        .submit-btn:hover {
-            background-color: #d35400;
-        }
-    </style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #e8f5e9; /* Light green background */
+        background: url('images/images.jpeg') no-repeat center center fixed, #e8f5e9;
+        background-blend-mode: lighten;
+        background-size: cover;
+        position: relative;
+    }
+
+    .navbar {
+        background-color: #4caf50; /* Green navbar */
+        padding: 15px 30px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-brand {
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 10px;
+    }
+
+    .nav-link {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .nav-link:hover {
+        background-color: #388e3c; /* Darker green on hover */
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        color: #2e7d32; /* Deep green heading */
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #4caf50; /* Green table headers */
+        color: white;
+    }
+
+    tr:hover {
+        background-color: #f1f8e9; /* Light green row hover */
+    }
+
+    .status-success {
+        color: #2e7d32; /* Success green */
+        font-weight: bold;
+    }
+
+    .status-cancelled {
+        color: #c62828; /* Red for cancelled */
+        font-weight: bold;
+    }
+
+    .no-data {
+        text-align: center;
+        padding: 20px;
+        color: #666;
+        font-style: italic;
+    }
+</style>
+
 </head>
 <body>
     <nav class="navbar">
